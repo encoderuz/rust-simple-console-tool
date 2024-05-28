@@ -2,8 +2,16 @@
 name = "grrs"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["encoderuz abduqodirxojiyev@gmail.com"]
+license = "MIT"
+description = "A tool for console"
+readme = "README.md"
+homepage = "https://github.com/you/grrs"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
 [dependencies]
+
 clap = { version = "4.0", features = ["derive"] }
 log = "0.4.21"
 anyhow = "1.0.86"
