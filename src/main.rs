@@ -21,6 +21,7 @@ fn main() -> Result<()> {
             println!("{}", line);
         }
     }
-
+println!("{:?}", content);
     Ok(())
+
 }
