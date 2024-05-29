@@ -21,7 +21,7 @@ fn main() -> Result<()> {
             println!("{}", line);
         }
     }
-println!("{:?}", content);
+    println!("{:?}", content);
     Ok(())
 
 }
